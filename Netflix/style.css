@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial;
+    
+}
+        /* navigator box */
+.navigator-box{
+    width: 1519px;
+    height: 750px; 
+    background-image: url("netflix.jpg");
+}
+.nav-1{
+    width: 910px;
+    padding-top: 18px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;        
+}
+span{
+    color: rgb(229, 9, 20);
+    font-size: 2.0rem;
+    padding-right: 20rem;
+    margin-right: 20rem;
+    margin-left: 10rem;       
+}
+.Sign{
+    border: none;
+    cursor: pointer;
+}
+select{
+    height: 30px;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #ffff;
+    font-weight: bold;
+    padding: 1px 20px 1px 20px;
+    margin-right: 20px;   
+}
+input{
+    width: 90px;
+    height: 35px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 4px;
+    color: #ffff;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.nav-2{
+    z-index: 1px;
+    color: #ffff;
+    margin-top: 10rem;
+    text-align: center;
+    margin-right: 12em;
+    margin-left: 12em;      
+}
+h1{ 
+    font-size: 3.0rem;
+    font-weight: 900;
+    text-align: center; 
+    width: auto;
+    height: auto; 
+         
+}
+.text{
+    font-size: 1.5rem;
+    margin-top: 16px;
+    
+}
+h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+.emailadd{
+    background-color: transparent;
+    width: 336px;
+    height: 24px;
+    border-color: rgb(229, 9, 20);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 16px 8px 16px;
+}
+::placeholder{
+    padding-bottom: 1.2rem;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.703);
+}
+button{
+    background-color: rgb(229, 9, 20);
+    color: #ffff;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: auto;
+    min-height: 3.5rem;
+    padding: 12px 24px 12px 24px;
+    margin-left: 8px;
+    justify-content: center;
+    cursor: pointer;
+}
+.email-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+        /* footer */
+.footer-1{
+    width: 1519px;
+    height: 10px;
+    background-color: rgb(68, 69, 70);
+}
+        /* foot-box-1 */
+.box-1{
+    background-color: black;
+    width: 1519px;
+    height: 400px;
+    color: #ffff;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-parg{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 6px;
+}
+h2{
+    font-size: 3.0rem;
+    font-weight: 900; 
+    width: auto;
+    height: auto; 
+}
+.img1{
+    width: 525px;
+    height: 380px;
+}
+.movie{
+    width: 270px;
+    height: 76px;
+    border: 2px solid rgba(255, 255, 255, 0.578);
+    border-radius: 12px;
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 7rem;
+    margin-bottom: 15px;
+}
+.Download{
+    color: #0071EB;
+    font-size: 14px;
+}
+.sthings{
+    width: 51px;
+    height: 72px;
+}
+.download-icon{
+    width: 48px;
+    height: 60px;
+}
+    /* foot-2 */
+.foot-2{
+    width: 1519px;
+    height: auto;
+    background-color: black;
+    color: #ffff;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.foot-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.1rem;
+}
+details{
+    width: 1100px;
+    background-color: rgb(68, 69, 70);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+summary{
+    padding: 24px 24px 22px 24px;
+}
+.text-para{
+    text-align: left;
+    padding: 1rem 24px 0px 1rem;
+    background-color: rgb(45, 45, 45);
+    padding-bottom: 1rem;
+}
+details > summary{
+    list-style: none;
+}
+summary::after{
+    content: ' +'; 
+}
+details[open] summary::after{
+    content: ' x';
+}
+.foot-email-box{
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+    /* foot-3 */
+.foot-3{
+    width: 1519px;
+    height: 350px;
+    background-color: black;
+    color: rgba(255,255,255,0.7);
+    padding-top: 5rem;
+}
+.call-txt{
+    margin-left: 13rem;
+}
+.foot-list{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.links-list{
+    color: rgba(255,255,255,0.7);
+    cursor: pointer;
+}
+.select-lang{
+    margin-left: 13rem;
+}
+
